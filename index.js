@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}`);
 });
 
-bot.login("ODIzNjk1NzE2NzY5MDcxMTA0.YFkkag.Goa3bEcrObWHugPl7zv-owe-6OQ")
+bot.login("TOKEN")
 
 bot.on('message', msg => {
     if(msg.content.startsWith(">find")){
